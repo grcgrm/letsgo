@@ -10,7 +10,7 @@ body {
   min-height: 100vh; /* vh stands for viewport height */
 }
 .form_main {
-  min-width: 70%;
+  min-width: 80%;
   display: inline-block;
   gap: 10px;
   padding-top: 3em;
@@ -26,7 +26,7 @@ body {
 
 
 .heading {
-  font-size: 50px;
+  font-size: 80px;
   color: #8d7045;
   font-weight: 500;
   margin: 5px 0 20px 0;
@@ -34,17 +34,18 @@ body {
 }
 
 .subtitle {
-  font-size: 12px;
+  font-size: 25px;
   color: #8d7045;
   margin: 5px 0 30px 0;
   font-family: "Comfortaa", sans-serif;
+  font-weight: 500;
 }
 
 
 .button-yes {
   padding: 0.1em 0.25em;
-  width: 11.7em;
-  height: 4.4em;
+  width: 15.9em;
+  height: 7.5em;
   background-color: #8b733d;
   border: 0.08em solid #fff;
   border-radius: 0.3em;
@@ -59,9 +60,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0.4em;
-  width: 7.25em;
-  height: 2.5em;
+  bottom: 0.5em;
+  width: 10em;
+  height: 4.4em;
   background-color: #8b733d;
   border-radius: 0.2em;
   font-size: 1.5em;
@@ -83,8 +84,8 @@ body {
 
 .button-no {
   padding: 0.1em 0.25em;
-  width: 11.7em;
-  height: 4.4em;
+  width: 15.9em;
+  height: 7.5em;
   background-color: #8b733d;
   border: 0.08em solid #fff;
   border-radius: 0.3em;
@@ -98,9 +99,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0.4em;
-  width: 7.25em;
-  height: 2.5em;
+  bottom: 0.5em;
+  width: 10em;
+  height: 4.4em;
   background-color: #8b733d;
   border-radius: 0.2em;
   font-size: 1.5em;
@@ -121,14 +122,14 @@ body {
 }
 
 .heading-exit {
-  font-size: 80px;
+  font-size: 130px;
   color: #2e2e2e;
   font-weight: bolder;
   font-family: "Honk", system-ui;
 }
 
 .form_exit {
-  min-width: 50%;
+  min-width: 90%;
   display: inline-block;
   flex-direction: column;
   align-items: center;
@@ -141,7 +142,7 @@ body {
 }
 
 .subtitle-exit {
-  font-size: 15px;
+  font-size: 30px;
   color: #999999;
   margin: 40px 0 5px 0;
   font-family: "Comfortaa", sans-serif;
@@ -158,7 +159,7 @@ body {
 
 
 .form_choices {
-  min-width: 70%;
+  min-width: 80%;
   display: inline-block;
   gap: 10px;
   padding-top: 3em;
@@ -173,7 +174,7 @@ body {
 }
 
 .where {
-  font-size: 30px;
+  font-size: 50px;
   color: #8d7045;
   font-weight: 500;
   margin: 0px 0 20px 0;
@@ -187,7 +188,7 @@ body {
 
 .card {
   padding: 10px;
-  min-width: 150px;
+  min-width: 220px;
   max-width: 180px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   background-color: rgb(221, 205, 184);
@@ -210,7 +211,7 @@ body {
 .image {
   min-width: 90%;
   max-width: 90%;
-  height: 130px;
+  height: 170px;
   border-radius: 4px;
   padding: 9px;
   background-size: 100% 100%;
@@ -236,7 +237,7 @@ body {
   padding: 2px 8px;
   border-radius: 4px;
   color: #fff;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .block {
@@ -245,14 +246,10 @@ body {
 
 .title {
   display: block;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 500;
   padding-bottom: 5px;
   padding-top: 14px;
   color: #8f7847;
   text-align: center;
-}
-
-.description {
-  font-size: 10px;
 }
