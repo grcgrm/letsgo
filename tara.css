@@ -159,12 +159,12 @@ body {
 
 
 .form_choices {
-  min-width: 80%;
+  min-width: 85%;
   display: inline-block;
-  gap: 10px;
-  padding-top: 3em;
-  padding-left: 2.8em;
-  padding-right: 2.8em;
+  gap: 5px;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-bottom: 2.1em;
   border: 2px dashed #DAA06D;
   border-radius: 15px;
@@ -184,6 +184,7 @@ body {
 .card-container {
   display: flex;
   justify-content: space-between;
+  padding: 0%;
 }
 
 .card {
@@ -219,6 +220,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.image:active {
+  transform: scale(2, 2);
+}
+
 .image1 {
   background-image: url(img/bgc.jpg);
 }
@@ -246,10 +251,12 @@ body {
 
 .title {
   display: block;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 500;
-  padding-bottom: 5px;
-  padding-top: 14px;
-  color: #8f7847;
+  margin-top: 14px;
+  padding: 10px;
+  color: #ffffff;
   text-align: center;
+  background-color: rgb(157, 130, 98);
+  border-radius: 5px;
 }
